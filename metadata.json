@@ -1,0 +1,28 @@
+{
+  "name": "puppet-archive",
+  "version": "0.1.1",
+  "source": "https://github.com/smarchive/puppet-archive",
+  "author": "Jochen Schalanda",
+  "license": "Apache 2.0",
+  "summary": "Puppet module to download and extract tar and zip archives",
+  "description": "This module downloads archives (tar.{gz,bz2,xz} and zip) using curl and extracts them to a given directory.",
+  "project_page": "https://github.com/smarchive/puppet-archive",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "b9cc73f1051890bdf7287d577e7a5278",
+    "LICENSE-2.0.txt": "3b83ef96387f14655fc854ddc3c6bd57",
+    "Modulefile": "c0e2ceaee46f9b2303707593080b7ba9",
+    "README.md": "98b0eefec78b6166591413867957646a",
+    "Rakefile": "727888ad80f809c4984181b169499d96",
+    "manifests/download.pp": "4757dc2efd4d8d5966fbd9a94da4ee0f",
+    "manifests/extract.pp": "42b492f761088afa2b108bdb2524be42",
+    "manifests/init.pp": "9e300c33b57e8639fe4bc93896d778c7",
+    "spec/fixtures/manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/spec_helper.rb": "3011a30b013ba2e44f7bf8615fdf2b8a"
+  }
+}
